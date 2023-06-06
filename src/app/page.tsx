@@ -69,17 +69,6 @@ export default function Page() {
 
   return (
     <Main>
-      <Head>
-        <title>
-          Isaques Estúdios - Marketing digital e Desenvolvimento de sites e
-          sistemas
-        </title>
-        <meta
-          name="description"
-          content="Isaques Estúdios oferece serviço de criação de sites, sistemas, aplicativos, marketing digital e muito mais, sempre com acessoria completa."
-        />
-      </Head>
-
       <div
         className="bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 mobile:flex-col mobile:items-start mobile:h-full"
         style={{ backgroundImage: `url(${First.src})` }}

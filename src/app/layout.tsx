@@ -5,7 +5,6 @@ import Footer from "@/components/global/Footer/Footer";
 
 // import Loading from './loading'
 
-
 export default function RootLayout({
   children,
 }: {
@@ -14,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -22,18 +21,26 @@ export default function RootLayout({
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-TW592H4');`,
           }}
-        /> */}
+        />
+        <title>
+          Isaques Estúdios - Marketing digital e Desenvolvimento de sites e
+          sistemas
+        </title>
+        <meta
+          name="description"
+          content="Isaques Estúdios oferece serviço de criação de sites, sistemas, aplicativos, marketing digital e muito mais, sempre com acessoria completa."
+        />
       </head>
       <body>
         {/* <Suspense fallback={<Loading />}> */}
         <Nav />
-        {/* <noscript>
+        <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-TW592H4"
             height="0"
             width="0"
           />
-        </noscript> */}
+        </noscript>
         {children}
         <Footer />
         {/* <Analytics /> */}
