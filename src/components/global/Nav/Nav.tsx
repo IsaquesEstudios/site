@@ -5,9 +5,13 @@ import Logo from "./Logo";
 import WhiteLogo from "./../../../img/global/isaques-estúdios-logo-letra-branco.png";
 import Links from "./Links";
 import { gsap } from "gsap";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Nav() {
+  const [open, setOpen] = useState(true);
+
   useEffect(() => {
     const timeLine = gsap.timeline();
 
@@ -19,16 +23,24 @@ export default function Nav() {
 
   return (
     <>
+      <RxHamburgerMenu
+        onClick={() => {
+          setOpen(!open);
+        }}
+        size={30}
+        className="fixed top-6 right-10 z-50 hidden mobile:block"
+      />
       <nav
         id="nav"
-        className="w-0 h-16 fixed top-0 z-20 bg-transparent  flex justify-between px-[5%] items-center backdrop-blur-[5px] mobile:h-screen mobile:bg-black-800 opacity-95"
+        className={`w-0 h-16 fixed top-0 z-20 bg-transparent  flex justify-between px-[5%] items-center backdrop-blur-[5px] opacity-95 mobile:h-screen mobile:bg-black-800  
+        flex-col ${open && "mobile:hidden"} mobile:max-w-[80%] mobile:items-start`}
       >
         <div
           id="contentNav"
-          className="hidden  opacity-0 justify-between items-center w-full "
+          className="hidden  opacity-0 justify-between items-center"
         >
           <div className="mobile:hidden">
-          <Logo src={WhiteLogo} alt="Logo isaques estúdios" height={24} />
+            <Logo src={WhiteLogo} alt="Logo isaques estúdios" height={24} />
           </div>
 
           <Links />
@@ -36,7 +48,7 @@ export default function Nav() {
       </nav>
       <div
         id="borderNav"
-        className="h-[0.5px] w-0 bg-gradient-to-r from-black-800 via-black-600 to-black-800 fixed top-16"
+        className="h-[0.5px] w-0 bg-gradient-to-r from-black-800 via-black-600 to-black-800 fixed top-16 mobile:hidden"
       />
     </>
   );
