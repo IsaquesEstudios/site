@@ -1,4 +1,3 @@
-// 'use client'
 import Button from "@/components/global/Button/Button";
 import Input from "@/components/global/Input/Input";
 import Main from "@/components/global/Layout/Main";

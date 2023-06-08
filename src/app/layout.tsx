@@ -22,6 +22,10 @@ export default function RootLayout({
       })(window,document,'script','dataLayer','GTM-TW592H4');`,
           }}
         />
+        <meta
+          name="google-site-verification"
+          content="M2h9R8mpdIWjAVLPfoTGiyrNS-vS9EKA9AUomMgWjFs"
+        />
         <title>
           Isaques Estúdios - Marketing digital e Desenvolvimento de sites e
           sistemas
