@@ -27,14 +27,18 @@ import H2 from "@/components/global/Title/H2";
 export default function SocialMedia() {
   return (
     <>
-      <title>
-        Campanhas de marketing na internet - Tenha seu site no topo das
-        pesquisas e em todas as redes sociais
-      </title>
-      <meta
-        name="description"
-        content="Campanhas online no google, facebook, youtube, instagram, tenha seu site sempre no topo, atraindo mais clientes para seu site."
-      />
+      <head>
+        <title>
+          Campanhas de marketing na internet - Tenha seu site no topo das
+          pesquisas e em todas as redes sociais
+        </title>
+        <meta
+          name="description"
+          content="Campanhas online no google, facebook, youtube, instagram, tenha seu site sempre no topo, atraindo mais clientes para seu site."
+        />
+
+        <link rel="canonical" href="https://isaquesestudios.com/campanhas" />
+      </head>
 
       <Main>
         <Section>

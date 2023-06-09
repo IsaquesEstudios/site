@@ -34,6 +34,8 @@ export default function RootLayout({
           name="description"
           content="Isaques Estúdios oferece serviço de criação de sites, sistemas, aplicativos, marketing digital e muito mais, sempre com acessoria completa."
         />
+
+        <link rel="canonical" href="https://isaquesestudios.com"/>
       </head>
       <body>
         {/* <Suspense fallback={<Loading />}> */}

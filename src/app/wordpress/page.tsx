@@ -19,17 +19,21 @@ import Logos from "./../../img/wordpress/integração-do-google.jpg";
 import { useEffect } from "react";
 
 export default function Page() {
-
   return (
     <>
-      <title>
-        Wordpress - Criação de sites rápidos e modernos com custo benefício
-        utilizando wordpress
-      </title>
-      <meta
-        name="description"
-        content="Criação de sites institucionais modernos e completos para empresas que precisam estar na internet"
-      />
+      <head>
+        <title>
+          Wordpress - Criação de sites rápidos e modernos com custo benefício
+          utilizando wordpress
+        </title>
+        <meta
+          name="description"
+          content="Criação de sites institucionais modernos e completos para empresas que precisam estar na internet"
+        />
+
+        <link rel="canonical" href="https://isaquesestudios.com/wordpress" />
+      </head>
+
       <Main className="pb-[125px]">
         <div
           className="w-full min-h-[1200px] bg-center bg-no-repeat bg-cover flex items-center justify-center mobile:min-h-[900px]"

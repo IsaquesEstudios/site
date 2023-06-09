@@ -32,12 +32,12 @@ export default function Nav() {
       />
       <nav
         id="nav"
-        className={`w-full h-16 fixed top-0 z-20 bg-transparent  flex justify-center items-center mobile:h-screen mobile:bg-black-800  
+        className={`w-full h-16 fixed top-0 z-20 bg-transparent backdrop-blur-sm flex justify-center items-center mobile:h-screen mobile:bg-black-800  
         flex-col ${
           open && "mobile:hidden"
         } mobile:max-w-[80%] mobile:items-start mobile:justify-start`}
       >
-        <div id="contentNav" className=" opacity-0 items-center justify-between w-full max-w-[90%] m-auto">
+        <div id="contentNav" className=" opacity-0 items-center justify-between w-full  max-w-[90%] m-auto">
           <div className="mobile:hidden">
             <Logo src={WhiteLogo} alt="Logo isaques estúdios" height={24} />
           </div>

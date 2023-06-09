@@ -68,6 +68,7 @@ export default function Page() {
   });
 
   return (
+    <>
     <Main>
       <div
         className="bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 mobile:flex-col mobile:items-start mobile:h-full"
@@ -222,5 +223,7 @@ export default function Page() {
         </div>
       </Section>
     </Main>
+    </>
+
   );
 }
