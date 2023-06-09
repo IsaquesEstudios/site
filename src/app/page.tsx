@@ -115,7 +115,7 @@ export default function Page() {
 
             <div className="col-span-3 flex flex-col justify-center mobile:mt-10">
               <H2 id="visualStudioTitle" className="opacity-0">
-                Estúdio Visual
+                Sua agencia de publicidade
               </H2>
               <ListToCall
                 className="ml-10 opacity-0"
@@ -149,7 +149,7 @@ export default function Page() {
           <div className="flex mobile:flex-col-reverse">
             <div className="flex flex-col justify-center mobile:mt-10">
               <H2 id="marketingTitle" className="opacity-0">
-                Marketing Digital
+                Agencia de marketing que você precisa
               </H2>
               <ListToCall
                 id="marketingTxt1"
@@ -200,7 +200,7 @@ export default function Page() {
                 id="programmingTitle"
                 className={`text-4xl font-semibold mb-4 mobile:text-2xl opacity-0`}
               >
-                Criação de sites e sistemas
+                Criação de sites e sistemas para sua empresa
               </h1>
               <ListToCall
                 id="programmingText1"

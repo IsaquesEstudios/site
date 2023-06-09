@@ -26,15 +26,19 @@ export default function RootLayout({
           name="google-site-verification"
           content="M2h9R8mpdIWjAVLPfoTGiyrNS-vS9EKA9AUomMgWjFs"
         />
-        <title>
-          Criação de sites e sistemas | Isaques Estúdios
-        </title>
+        <title>Agencia de Publicidade Para Alavancar sua Empresa</title>
         <meta
           name="description"
           content="Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital e muito mais, sempre com acessoria completa."
         />
 
-        <link rel="canonical" href="https://isaquesestudios.com"/>
+        <link rel="canonical" href="https://isaquesestudios.com" />
+        <link
+          rel="alternate"
+          href="http://isaquesestudios.com"
+          hrefLang="pt-br"
+        />
+        
       </head>
       <body>
         {/* <Suspense fallback={<Loading />}> */}
