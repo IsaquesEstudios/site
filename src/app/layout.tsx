@@ -27,12 +27,11 @@ export default function RootLayout({
           content="M2h9R8mpdIWjAVLPfoTGiyrNS-vS9EKA9AUomMgWjFs"
         />
         <title>
-          Isaques Estúdios - Marketing digital e Desenvolvimento de sites e
-          sistemas
+          Criação de sites e sistemas | Isaques Estúdios
         </title>
         <meta
           name="description"
-          content="Isaques Estúdios oferece serviço de criação de sites, sistemas, aplicativos, marketing digital e muito mais, sempre com acessoria completa."
+          content="Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital e muito mais, sempre com acessoria completa."
         />
 
         <link rel="canonical" href="https://isaquesestudios.com"/>
