@@ -2,12 +2,16 @@
 import Image from "next/image";
 
 import Bg from "./../../img/wordpress/bg-site-wordpress-is.webp";
-import Particula from "./../../img/wordpress/isaques-estudios-particulas.jpg";
-import Wordpress from "./../../img/wordpress/sites-em-wordpress.png";
+import BgMobile from "./../../img/wordpress/bg-site-wordpress-is-mobile.webp";
+
+import Particula from "./../../img/wordpress/isaques-estudios-particulas.webp";
+import ParticulaMobile from "./../../img/wordpress/isaques-estudios-particulas-mobile.webp";
+
 import H2 from "@/components/global/Title/H2";
+import Wordpress from "./../../img/wordpress/sites-em-wordpress.png";
 import Main from "@/components/global/Layout/Main";
 
-import Chart from "./../../img/wordpress/impulsione-seu-negócio.jpg";
+import Chart from "./../../img/wordpress/alavanque-seu-site-em-wp.webp";
 import H3 from "@/components/global/Title/H3";
 import Section from "@/components/global/Layout/Section";
 import Button from "@/components/global/Button/Button";
@@ -23,6 +27,84 @@ export default function Page() {
     <>
       <head>
         <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "Non-alcoholic Pina Colada",
+            "image": [
+            "https://example.com/photos/1x1/photo.jpg",
+            "https://example.com/photos/4x3/photo.jpg",
+            "https://fastly.picsum.photos/id/237/1920/1080.jpg?hmac=1hPzsubx1j8fMddzUgP5NbuX2rNLOEaQML1rD_g1C5Y"
+            ],
+            "author": {
+              "@type": "Person",
+              "name": "Mary Stone"
+            },
+            "datePublished": "2018-03-10",
+            "description": "This non-alcoholic pina colada is everyone's favorite!",
+            "recipeCuisine": "American",
+            "prepTime": "PT1M",
+            "cookTime": "PT2M",
+            "totalTime": "PT3M",
+            "keywords": "non-alcoholic",
+            "recipeYield": "1 serving",
+            "recipeCategory": "Drink",
+            "nutrition": {
+              "@type": "NutritionInformation",
+              "calories": "120 calories"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "ratingCount": "18"
+            },
+            "recipeIngredient": [
+              "2 cups of pineapple juice",
+              "5/8 cup cream of coconut",
+              "ice"
+            ],
+            "recipeInstructions": [
+              {
+                "@type": "HowToStep",
+                "text": "Blend 2 cups of pineapple juice and 5/8 cup cream of coconut until smooth."
+              },
+              {
+                "@type": "HowToStep",
+                "text": "Fill a glass with ice."
+              },
+              {
+                "@type": "HowToStep",
+                "text": "Pour the pineapple juice and coconut mixture over ice."
+              }
+            ],
+            "video": {
+              "@type": "VideoObject",
+              "name": "How to make a Party Coffee Cake",
+              "description": "This is how you make a Party Coffee Cake.",
+              "thumbnailUrl": [
+                "https://example.com/photos/1x1/photo.jpg",
+                "https://example.com/photos/4x3/photo.jpg",
+                "https://example.com/photos/16x9/photo.jpg"
+               ],
+              "contentUrl": "https://www.example.com/video123.mp4",
+              "embedUrl": "https://www.example.com/videoplayer?video=123",
+              "uploadDate": "2018-02-05T08:00:00+08:00",
+              "duration": "PT1M33S",
+              "interactionStatistic": {
+                "@type": "InteractionCounter",
+                "interactionType": { "@type": "WatchAction" },
+                "userInteractionCount": 2347
+              },
+              "expires": "2019-02-05T08:00:00+08:00"
+             }
+          }
+          </script>
+          `,
+          }}
+        ></script>
         <meta
           name="description"
           content="Sites em wordpress, landing pages, e-commerce, blog e muito mais, profissionais em wordpress estão prontos para apresentar os valores"
