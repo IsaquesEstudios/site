@@ -28,6 +28,7 @@ export default function Page() {
       <head>
         <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
         <script
+          type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `
           {
