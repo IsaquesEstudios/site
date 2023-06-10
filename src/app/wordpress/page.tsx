@@ -15,20 +15,17 @@ import Particula from "./../../img/wordpress/isaques-estudios-particulas.jpg";
 import Benefits from "@/components/global/Topics/Benefits";
 import Logos from "./../../img/wordpress/integração-do-google.jpg";
 
-// import AutoSlideWordpress from "@/components/global/Slide/AutoSlideWordpress";
+import AutoSlideWordpress from "@/components/global/Slide/AutoSlideWordpress";
 import { useEffect } from "react";
 
 export default function Page() {
   return (
     <>
       <head>
-        <title>
-          Wordpress - Criação de sites rápidos e modernos com custo benefício
-          utilizando wordpress
-        </title>
+        <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
         <meta
           name="description"
-          content="Criação de sites institucionais modernos e completos para empresas que precisam estar na internet"
+          content="Sites em wordpress, landing pages, e-commerce, blog e muito mais, profissionais em wordpress estão prontos para apresentar os valores"
         />
 
         <link rel="canonical" href="https://isaquesestudios.com/wordpress" />
@@ -41,21 +38,22 @@ export default function Page() {
         >
           <div className="flex items-center justify-center flex-col">
             <h1 className="text-5xl font-semibold text-center mb-4 mobile:text-4xl">
-              Sites criados em wordpress
+              Sites em wordpress
             </h1>
             <div className="w-4/6 my-7 mobile:w-5/6">
               <Image src={Wordpress} alt="sites em wordpress" />
             </div>
             <H2 className="text-center">
-              Sua marca é unica, seu site também deve ser!
+              Porque devo ter um site em wordpress?
             </H2>
             <p className="max-w-[60%] text-center mobile:max-w-[80%] min-mobile:max-w-[90%]">
-              Desperte o poder do seu negócio no mundo digital! Aumente sua
-              visibilidade, conquiste novos clientes e impulsione seus
-              resultados com um website completo e profissional. Estabeleça sua
-              presença online de forma impactante e alcance o sucesso absoluto.
-              Não deixe essa oportunidade passar: invista em um website de
-              qualidade e abra as portas para um novo nível de sucesso!
+              Porque você precisa despertar o poder do seu negócio no mundo
+              digital! Aumente sua visibilidade, conquiste novos clientes e
+              impulsione seus resultados com um website em wordpress. Estabeleça
+              sua presença online de forma impactante e alcance o sucesso
+              absoluto. Não deixe essa oportunidade passar: invista em um
+              website de qualidade e abra as portas para um novo nível de
+              sucesso!
             </p>
           </div>
         </div>
@@ -65,20 +63,24 @@ export default function Page() {
             <div>
               <Image
                 src={Chart}
-                alt="Aumente seu alcance com um site na isaques estúdios"
+                alt="Impulsione seu negócio com sites prontos em wordpress"
               />
             </div>
 
             <div className="flex justify-center items-start flex-col mobile:mt-8">
               <H3>
-                Crie uma presença online única com um site personalizado e
-                criativo!
+                Como ter um e-commerce, blog ou site institucional em wordpress
+                pode me ajudar?
               </H3>
               <p className="mt-4">
-                Destaque-se online com um website personalizado e poderoso.
-                Nossa equipe especializada em criação de sites está pronta para
-                transformar sua visão em realidade digital. Entre em contato
-                conosco e conquiste uma presença online de sucesso!
+                Ter um e-commerce, blog ou site institucional no WordPress pode
+                ajudar a alcançar um público maior, expandir sua marca, aumentar
+                as vendas e fornecer uma plataforma interativa para se envolver
+                com os visitantes. O WordPress oferece uma ampla gama de
+                recursos, temas e plugins que podem ser adaptados às
+                necessidades específicas do seu negócio. Além disso, é uma
+                plataforma de código aberto com uma comunidade ativa de
+                desenvolvedores freelancers.
               </p>
 
               <Button className="w-[360px] mt-4 mobile:w-full mobile:mt-4 ">
@@ -93,28 +95,29 @@ export default function Page() {
           style={{ backgroundImage: `url('${Particula.src}')` }}
         >
           <H2>
-            Impulsione seu site com o desenvolvimento
-            <br /> completo e rápido do wordpress!
+            Temos uma das melhores hospedagens para <br /> sites em wordpress
           </H2>
           <p>
-            Se você quer garantir que seu site tenha alta performance e
-            organização visual eficiente, então nossa promoção de
-            desenvolvimento Front-end e Back-end é exatamente o que você
-            precisa. Com nossos serviços profissionais, seu site será mais
-            rápido, seguro e responsivo, além de ter um design atraente e
-            organizado para proporcionar a melhor experiência possível para seus
-            visitantes.
+            Nossa hospedagem especializada para WordPress e aproveite um
+            desempenho e confiabilidade excepcionais para o seu site. Nossa
+            hospedagem é a escolha certa para garantir que seu site em WordPress
+            seja rápido, seguro e tenha um tempo de atividade consistente. Com
+            recursos otimizados, suporte técnico especializado e um painel de
+            controle intuitivo, nossa hospedagem para WordPress torna a gestão
+            do seu site fácil e eficiente. Não comprometa a qualidade - escolha
+            a nossa hospedagem para WordPress e impulsione o sucesso do seu site
+            agora mesmo!
           </p>
         </div>
 
         <Section className="my-[120px] mobile:my-[75px]">
           <div className="text-center mobile:text-start">
             <H2 className="mb-4 mobile:mb-0">
-              Porque optar por um site em Wordpress da Isaques Estúdios?
+              Quais as principais vantagens de usar WordPress ?
             </H2>
 
             <H3 className={"mb-20 mobile:mb-2"}>
-              Separamos algumas vantagens de ter um site em Wordpress:
+              Separamos seis benefícios de usar WordPress
             </H3>
 
             <div className="grid grid-cols-3 grid-rows-2 gap-x-10 gap-y-10 mobile:grid-cols-2 mobile:gap-x-4 mobile:gap-y-4 min-mobile:grid-cols-1">
@@ -159,10 +162,10 @@ export default function Page() {
         </Section>
 
         <div className="bg-center bg-cover text-center px-[10%] my-[75px] flex justify-center flex-col tablet:px-[5%] mobile:px-[0%]">
-          <H2 className="mb-[40px] text-center mobile:max-w-[90%] mobile:mb-[0px] m-auto">
+          <h5 className=" text-4xl font-semibold  mb-[40px] text-center mobile:max-w-[90%] mobile:text-2xl mobile:mb-[0px] m-auto">
             Veja alguns dos nossos trabalhos
-          </H2>
-          {/* <AutoSlideWordpress /> */}
+          </h5>
+          <AutoSlideWordpress />
         </div>
 
         <div>
