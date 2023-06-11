@@ -28,7 +28,7 @@ import Head from "next/head";
 export default function SocialMedia() {
   return (
     <>
-      <Head>
+      <Head >
         <title>
           Campanhas de marketing na internet - Aumente o numero de clientes
         </title>
