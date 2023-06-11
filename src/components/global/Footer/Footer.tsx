@@ -26,21 +26,27 @@ export default function Footer() {
           </p>
         </div>
 
-        <ul>
+        <div>
           <h3 className="text-2xl mobile:text-xl  mb-1">Páginas</h3>
-          <LiLink href="/">Início</LiLink>
-          <LiLink href="/">Contato</LiLink>
-        </ul>
+          <ul>
+            <LiLink href="/">Início</LiLink>
+            <LiLink href="/">Contato</LiLink>
+          </ul>
+        </div>
 
-        <ul>
+        <div>
           <h3 className="text-2xl  mobile:text-xl  mb-1">Marketing</h3>
-          <LiLink href="/campanhas">Campanhas nas redes sociais</LiLink>
-        </ul>
+          <ul>
+            <LiLink href="/campanhas">Campanhas nas redes sociais</LiLink>
+          </ul>
+        </div>
 
-        <ul>
+        <div>
           <h3 className="text-2xl  mobile:text-xl  mb-1">Programação</h3>
-          <LiLink href="/wordpress">Criação de site em Wordpress</LiLink>
-        </ul>
+          <ul>
+            <LiLink href="/wordpress">Criação de site em Wordpress</LiLink>
+          </ul>
+        </div>
 
         <ul></ul>
 
@@ -70,14 +76,10 @@ export default function Footer() {
             +55 1193840-4368
           </Link>
 
-          <Link
-            href="/"
-            // href="mailto:contato@isaquesestudios.com"
-            className="flex items-center mt-2 w-full"
-          >
+          <div className="flex items-center mt-2 w-full">
             <FiMail className="mr-1" />
             contato@isaquesestudios.com
-          </Link>
+          </div>
 
           <Link
             href="https://www.google.com.br/maps/@-23.5959002,-46.705497,12.25z?entry=ttu"

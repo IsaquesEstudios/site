@@ -29,12 +29,11 @@ export default function SocialMedia() {
     <>
       <head>
         <title>
-          Campanhas de marketing na internet - Tenha seu site no topo das
-          pesquisas e em todas as redes sociais
+          Campanhas de marketing na internet - Aumente o numero de clientes
         </title>
         <meta
           name="description"
-          content="Campanhas online no google, facebook, youtube, instagram, tenha seu site sempre no topo, atraindo mais clientes para seu site."
+          content="Campanhas online no google, facebook, youtube, instagram, tenha seu site sempre no topo, atraindo mais clientes para sua empresa."
         />
 
         <link rel="canonical" href="https://isaquesestudios.com/campanhas" />
