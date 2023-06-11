@@ -69,7 +69,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <h5 className="mt-4 text-2xl">Contato</h6>
+          <h5 className="mt-4 text-2xl">Contato</h5>
 
           <Link href="tel:+5511983404368" className="flex items-center mt-2">
             <BsTelephone className="mr-1" />
