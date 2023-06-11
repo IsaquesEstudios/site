@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="h-[0.5px] w-full bg-gradient-to-r from-black-600 via-black-800 to-black-700" />
       <footer className="bg-black-800 py-20 px-[5%] grid grid-cols-6 gap-x-4 tablet:grid-cols-3 mobile:grid-cols-2">
         <div className="col-span-2">
-          <h5 className="text-2xl">Sobre a Isaques Estúdios</h5>
+          <h4 className="text-2xl">Sobre a Isaques Estúdios</h4>
           <p>
             Somos uma empresa líder em desenvolvimento web, marketing digital e
             social media. Com uma equipe experiente e apaixonada, oferecemos
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-2xl mobile:text-xl  mb-1">Páginas</h3>
+          <h5 className="text-2xl mobile:text-xl  mb-1">Páginas</h5>
           <ul>
             <LiLink href="/">Início</LiLink>
             <LiLink href="/">Contato</LiLink>
@@ -35,14 +35,14 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="text-2xl  mobile:text-xl  mb-1">Marketing</h3>
+          <h5 className="text-2xl  mobile:text-xl  mb-1">Marketing</h5>
           <ul>
             <LiLink href="/campanhas">Campanhas nas redes sociais</LiLink>
           </ul>
         </div>
 
         <div>
-          <h3 className="text-2xl  mobile:text-xl  mb-1">Programação</h3>
+          <h5 className="text-2xl  mobile:text-xl  mb-1">Programação</h5>
           <ul>
             <LiLink href="/wordpress">Criação de site em Wordpress</LiLink>
           </ul>
@@ -53,7 +53,7 @@ export default function Footer() {
         {/* line two */}
 
         <div className="col-span-2">
-          <h5 className="mb-2 mt-4 text-2xl">Redes Sociais</h5>
+          <h6 className="mb-2 mt-4 text-2xl">Redes Sociais</h6>
 
           <div className="flex gap-2">
             <Link href="https://www.facebook.com/IsaquesEstudios/" aria-label="página no facebook da isaques estúdios">
