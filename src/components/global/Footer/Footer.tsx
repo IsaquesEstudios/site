@@ -52,7 +52,7 @@ export default function Footer() {
 
         {/* line two */}
 
-        <ul className="col-span-2">
+        <div className="col-span-2">
           <h5 className="mb-2 mt-4 text-2xl">Redes Sociais</h5>
 
           <div className="flex gap-2">
@@ -88,7 +88,7 @@ export default function Footer() {
             <TfiMapAlt color="white" className="mr-1 " />
             São Paulo - SP
           </Link>
-        </ul>
+        </div>
       </footer>
     </>
   );
