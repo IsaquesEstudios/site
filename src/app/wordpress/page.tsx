@@ -28,6 +28,7 @@ export default function Page() {
     <>
       <Head>
         <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
+        <meta property="og:title" content="Sites em wordpress - Tenha seu site pronto em wordpress" key="title" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
