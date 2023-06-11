@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h5 className="text-2xl mobile:text-xl  mb-1">Páginas</h5>
+          <h4 className="text-2xl mobile:text-xl  mb-1">Páginas</h4>
           <ul>
             <LiLink href="/">Início</LiLink>
             <LiLink href="/">Contato</LiLink>
@@ -35,14 +35,14 @@ export default function Footer() {
         </div>
 
         <div>
-          <h5 className="text-2xl  mobile:text-xl  mb-1">Marketing</h5>
+          <h4 className="text-2xl  mobile:text-xl  mb-1">Marketing</h4>
           <ul>
             <LiLink href="/campanhas">Campanhas nas redes sociais</LiLink>
           </ul>
         </div>
 
         <div>
-          <h5 className="text-2xl  mobile:text-xl  mb-1">Programação</h5>
+          <h4 className="text-2xl  mobile:text-xl  mb-1">Programação</h4>
           <ul>
             <LiLink href="/wordpress">Criação de site em Wordpress</LiLink>
           </ul>
