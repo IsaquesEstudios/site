@@ -1,10 +1,3 @@
-// import Nav from '@/components/global/Nav/Nav'
-import Nav from "@/components/global/Nav/Nav";
-import "./globals.css";
-import Footer from "@/components/global/Footer/Footer";
-
-// import Loading from './loading'
-
 export default function RootLayout({
   children,
 }: {
