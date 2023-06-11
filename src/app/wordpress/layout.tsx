@@ -1,3 +1,5 @@
+import Nav from "@/components/global/Nav/Nav";
+
 export default function RootLayout({
   children,
 }: {
@@ -36,7 +38,10 @@ export default function RootLayout({
 
         <link rel="canonical" href="https://isaquesestudios.com/wordpress" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
