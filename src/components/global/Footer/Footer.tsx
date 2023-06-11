@@ -13,7 +13,7 @@ import { TfiMapAlt } from "react-icons/tfi";
 export default function Footer() {
   return (
     <>
-      <div className="h-[0.5px] w-full bg-gradient-to-r from-black-600 via-black-800 to-black-700" />
+      <div className="h-[0.5px] w-full bg-gradient-to-r from-black-600 via-black-800 to-black-700"></div>
       <footer className="bg-black-800 py-20 px-[5%] grid grid-cols-6 gap-x-4 tablet:grid-cols-3 mobile:grid-cols-2">
         <div className="col-span-2">
           <h3 className="text-2xl">Sobre a Isaques Estúdios</h3>
@@ -56,15 +56,24 @@ export default function Footer() {
           <h5 className="mb-2 mt-4 text-2xl">Redes Sociais</h5>
 
           <div className="flex gap-2">
-            <Link href="https://www.facebook.com/IsaquesEstudios/" aria-label="página no facebook da isaques estúdios">
+            <Link
+              href="https://www.facebook.com/IsaquesEstudios/"
+              aria-label="página no facebook da isaques estúdios"
+            >
               <AiOutlineFacebook size={30} />
             </Link>
 
-            <Link href="https://www.instagram.com/isaquesestudios/" aria-label="perfil no instagram da isaques estúdios">
+            <Link
+              href="https://www.instagram.com/isaquesestudios/"
+              aria-label="perfil no instagram da isaques estúdios"
+            >
               <AiOutlineInstagram size={32} />
             </Link>
 
-            <Link href="https://www.youtube.com/channel/UCuFoIhfVe3HiDgC72ITLDNQ" aria-label="perfil no youtube da isaques estúdios">
+            <Link
+              href="https://www.youtube.com/channel/UCuFoIhfVe3HiDgC72ITLDNQ"
+              aria-label="perfil no youtube da isaques estúdios"
+            >
               <AiOutlineYoutube size={34} />
             </Link>
           </div>

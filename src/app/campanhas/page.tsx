@@ -23,11 +23,12 @@ import { IoStorefrontOutline } from "react-icons/io5";
 import Contact from "./../../img/trafficManagement/ao-contratar-isaques-estúdios.png";
 
 import H2 from "@/components/global/Title/H2";
+import Head from "next/head";
 
 export default function SocialMedia() {
   return (
     <>
-      <head>
+      <Head>
         <title>
           Campanhas de marketing na internet - Aumente o numero de clientes
         </title>
@@ -37,7 +38,7 @@ export default function SocialMedia() {
         />
 
         <link rel="canonical" href="https://isaquesestudios.com/campanhas" />
-      </head>
+      </Head>
 
       <Main>
         <Section>

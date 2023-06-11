@@ -21,11 +21,12 @@ import Logos from "./../../img/wordpress/integração-do-google.jpg";
 
 import AutoSlideWordpress from "@/components/global/Slide/AutoSlideWordpress";
 import { useEffect } from "react";
+import Head from "next/head";
 
 export default function Page() {
   return (
     <>
-      <head>
+      <Head>
         <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
         <script
           type="application/ld+json"
@@ -55,9 +56,9 @@ export default function Page() {
         />
 
         <link rel="canonical" href="https://isaquesestudios.com/wordpress" />
-      </head>
+      </Head>
 
-      <Main className="pb-[125px]">
+      <main>
         <div
           className="w-full min-h-[1200px] bg-center bg-no-repeat bg-cover flex items-center justify-center mobile:min-h-[900px]"
           style={{ backgroundImage: `url('${Bg.src}')` }}
@@ -234,7 +235,7 @@ export default function Page() {
             </Button>
           </div>
         </div>
-      </Main>
+      </main>
     </>
   );
 }

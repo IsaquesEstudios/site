@@ -30,13 +30,13 @@ export default function RootLayout({
       <body>
         {/* <Suspense fallback={<Loading />}> */}
         <Nav />
-        <noscript>
+        {/* <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-TW592H4"
             height="0"
             width="0"
           />
-        </noscript>
+        </noscript> */}
         {children}
         <Footer />
         {/* <Analytics /> */}
