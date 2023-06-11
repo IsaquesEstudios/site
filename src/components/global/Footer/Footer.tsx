@@ -53,7 +53,7 @@ export default function Footer() {
         {/* line two */}
 
         <div className="col-span-2">
-          <h6 className="mb-2 mt-4 text-2xl">Redes Sociais</h6>
+          <h5 className="mb-2 mt-4 text-2xl">Redes Sociais</h5>
 
           <div className="flex gap-2">
             <Link href="https://www.facebook.com/IsaquesEstudios/" aria-label="página no facebook da isaques estúdios">
@@ -69,7 +69,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <h6 className="mt-4 text-2xl">Contato</h6>
+          <h5 className="mt-4 text-2xl">Contato</h6>
 
           <Link href="tel:+5511983404368" className="flex items-center mt-2">
             <BsTelephone className="mr-1" />
