@@ -69,7 +69,6 @@ export default function Page() {
     t3.to("#programmingText1", { marginLeft: 0, opacity: 1 });
   });
 
-  console.log(First);
 
   return (
     <>

@@ -47,7 +47,7 @@ export default function Nav() {
       </nav>
       <div
         id="borderNav"
-        className="h-[0.5px] w-0 bg-gradient-to-r from-black-800 via-black-600 to-black-800 fixed top-16 mobile:hidden"
+        className="h-[0.5px] w-0 bg-gradient-to-r from-black-800 via-black-600 to-black-800 fixed top-16 mobile:hidden z-20"
       />
     </>
   );

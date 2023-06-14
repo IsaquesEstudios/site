@@ -9,6 +9,6 @@ interface H2Type {
 export default function H2({ id, className, children }: H2Type) {
 
   return (
-    <h2 id={id} className={`text-4xl font-semibold mb-4 mobile:text-2xl ${className}`}>{children}</h2>
+    <h2 id={id} className={`text-4xl font-medium mb-2 mobile:text-2xl ${className}`}>{children}</h2>
   )
 }

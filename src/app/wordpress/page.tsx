@@ -230,7 +230,6 @@ export default function Page() {
               key={2}
               className="w-[520px] mt-6 mobile:w-[340px] min-mobile:w-[320px]"
             >
-              {" "}
               Saiba mais sobre as ferramentas do google
             </Button>
           </div>
