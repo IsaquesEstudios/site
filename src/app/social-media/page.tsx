@@ -4,6 +4,7 @@ import Section from "@/components/global/Layout/Section";
 import "./style.css";
 import PlayerBackground from "@/components/social-media/PlayerBackground";
 import H2 from "@/components/global/Title/H2";
+import H3 from "@/components/global/Title/H3";
 
 export default function Page() {
   return (
@@ -35,6 +36,46 @@ export default function Page() {
             pelas redes sociais de clientes, antes de fechar um serviço, tem
             crescido e tende a crescer muito mais nos próximos anos
           </p>
+        </div>
+      </Section>
+
+      <Section className="min-h-[100vh]">
+        <H3 className="text-center">
+          razões pelas quais é importante ter uma mídia social
+        </H3>
+
+        <div>
+          <div>
+            <h4>Alcance de audiência:</h4>
+            <p>
+              As redes sociais permitem alcançar uma ampla audiência de maneira
+              rápida e eficiente. Milhões de pessoas em todo o mundo estão
+              ativas nas redes sociais diariamente, o que oferece uma
+              oportunidade única para alcançar um público diversificado.
+            </p>
+          </div>
+
+          <div>
+            <h4>Construção de marca:</h4>
+            <p>
+              As redes sociais são uma plataforma ideal para construir e
+              fortalecer a identidade da sua marca. Elas permitem que você
+              compartilhe sua história, valores e personalidade com seu
+              público-alvo, criando uma conexão emocional e construindo a
+              confiança dos consumidores.
+            </p>
+          </div>
+
+          <div>
+            <h4>Engajamento com o público:</h4>
+            <p>
+              As redes sociais oferecem uma maneira direta de interagir e se
+              envolver com seu público. Você pode responder a comentários,
+              mensagens diretas e mencionar pessoas, demonstrando que você se
+              importa com seus seguidores e está disposto a se envolver com
+              eles.
+            </p>
+          </div>
         </div>
       </Section>
     </Main>

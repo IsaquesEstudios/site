@@ -28,7 +28,7 @@ export default function Page() {
     <>
       <Head>
         <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
-        <script
+        {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `
@@ -49,7 +49,7 @@ export default function Page() {
           </script>
           `,
           }}
-        ></script>
+        ></script> */}
         <meta
           name="description"
           content="Sites em wordpress, landing pages, e-commerce, blog e muito mais, profissionais em wordpress estão prontos para apresentar os valores"
