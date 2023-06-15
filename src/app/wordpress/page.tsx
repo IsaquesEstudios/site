@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   keywords: "agencia, sites, wordpress, landingpage, blog, valores",
   alternates: {
     languages: {
-      "pt-BR": "www.isaquesestudios.com/wordpress",
+      "pt": "www.isaquesestudios.com/wordpress",
     },
     canonical: "www.isaquesestudios.com/wordpress",
   },
