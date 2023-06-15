@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <head>
+      <Head>
         <title>Contato - Isaques Estúdios</title>
         <meta
           name="description"
@@ -17,7 +17,7 @@ export default function Page() {
         />
 
         <link rel="canonical" href="https://isaquesestudios.com/contato" />
-      </head>
+      </Head>
 
       <Main>
         <div className="pt-[150px] px-[5%] grid grid-cols-2 mobile:grid-cols-1 mobile:pt-[125px]">
