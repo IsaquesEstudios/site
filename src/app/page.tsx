@@ -4,15 +4,11 @@ import { useEffect } from "react";
 import Main from "@/components/global/Layout/Main";
 import Image from "next/image";
 
-import First from "./../img/index/isaques-estudios.webp";
-import FirstMobile from "./../img/index/isaques-estudios-mobile.webp";
-
 import Conhecer from "./../img/index/conhecer.svg";
 import Você from "./../img/index/voce.svg";
 import Section from "@/components/global/Layout/Section";
 
 import { gsap } from "gsap";
-import DoubleColumns from "@/components/global/DoubleColumns/DoubleCoulmns";
 
 import VisualIdentify from "./../img/index/identidade-visual-isaques-estudios.jpg";
 import ListToCall from "@/components/global/ListToCall/ListToCall";
@@ -20,8 +16,27 @@ import Marketing from "@/img/index/marketing-digital.jpg";
 import Programing from "./../img/index/isaques-estúdios-criação-de-site.jpg";
 import H2 from "@/components/global/Title/H2";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Metadata } from "next";
 
-import Head from "next/head";
+export const metadata: Metadata = {
+  title: "Agencia de Publicidade para expandir o marketing da sua Empresa",
+  description:
+    "Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital tudo que sua empresa precisa para crescer",
+  keywords: "agencia,publicidade,marketing,sites",
+  alternates: {
+    languages: {
+      "pt-BR": "/",
+    },
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Agencia de Publicidade para expandir o marketing da sua Empresa",
+    description:
+      "Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital tudo que sua empresa precisa para crescer",
+    locale: "pt-BR",
+    type: "website",
+  },
+};
 
 export default function Page() {
   useEffect(() => {
@@ -69,15 +84,11 @@ export default function Page() {
     t3.to("#programmingText1", { marginLeft: 0, opacity: 1 });
   });
 
-
   return (
     <>
       <head>
-        <title>Agencia de Publicidade Para Alavancar sua Empresa</title>
-        <meta
-          name="description"
-          content="Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital tudo que sua empresa precisa para crescer"
-        />
+        <title></title>
+        <meta name="description" content="" />
 
         <link rel="canonical" href="https://isaquesestudios.com" />
         <link
