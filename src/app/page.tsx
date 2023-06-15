@@ -18,7 +18,7 @@ import H2 from "@/components/global/Title/H2";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Agencia de Publicidade para expandir o marketing da sua Empresa",
   description:
     "Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital tudo que sua empresa precisa para crescer",
