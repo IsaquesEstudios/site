@@ -86,17 +86,12 @@ export default function Page() {
 
   return (
     <>
-      <head>
-        <title></title>
-        <meta name="description" content="" />
-
-        <link rel="canonical" href="https://isaquesestudios.com" />
+        {/* <link rel="canonical" href="https://isaquesestudios.com" />
         <link
           rel="alternate"
           href="http://isaquesestudios.com"
-          hrefLang="pt-br"
-        />
-      </head>
+          hrefLang="pt-br" */}
+
       <Main>
         <div
           className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 bg-[url('/_next/static/media/isaques-estudios.690abb82.webp')] tablet:bg-[url('/_next/static/media/isaques-estudios-mobile.9f3f11cb.webp')] mobile:flex-col mobile:items-start mobile:h-full `}
