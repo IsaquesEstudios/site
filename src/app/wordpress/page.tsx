@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     languages: {
       "pt-BR": "/wordpress",
     },
-    canonical: "www.isaquesestudios.com/wordpress",
+    canonical: "https://isaquesestudios.com/wordpress",
   },
 };
 export default function Page() {
