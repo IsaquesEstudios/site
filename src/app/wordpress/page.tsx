@@ -2,11 +2,14 @@
 import Image from "next/image";
 
 import Bg from "./../../img/wordpress/bg-site-wordpress-is.webp";
+import BgMobile from "./../../img/wordpress/bg-site-wordpress-is-mobile.webp";
 
 import Particula from "./../../img/wordpress/isaques-estudios-particulas.webp";
+import ParticulaMobile from "./../../img/wordpress/isaques-estudios-particulas-mobile.webp";
 
 import H2 from "@/components/global/Title/H2";
 import Wordpress from "./../../img/wordpress/sites-em-wordpress.png";
+import Main from "@/components/global/Layout/Main";
 
 import Chart from "./../../img/wordpress/alavanque-seu-site-em-wp.webp";
 import H3 from "@/components/global/Title/H3";
@@ -17,10 +20,44 @@ import Benefits from "@/components/global/Topics/Benefits";
 import Logos from "./../../img/wordpress/integração-do-google.jpg";
 
 import AutoSlideWordpress from "@/components/global/Slide/AutoSlideWordpress";
+import { useEffect } from "react";
+import Head from "next/head";
 
 export default function Page() {
   return (
     <>
+      <Head>
+        <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+          {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": "Da Roça Biscoitos",
+            "image": [
+            "https://example.com/photos/1x1/photo.jpg",
+            "https://example.com/photos/4x3/photo.jpg",
+            "https://imgur.com/a/Ga5S7Y0"
+            ],
+            "author": {
+              "@type": "Da Roça Biscoitos",
+              "name": "Site em wordpress"
+            },
+          }
+          </script>
+          `,
+          }}
+        ></script>
+        <meta
+          name="description"
+          content="Sites em wordpress, landing pages, e-commerce, blog e muito mais, profissionais em wordpress estão prontos para apresentar os valores"
+        />
+
+        <link rel="canonical" href="https://isaquesestudios.com/wordpress" />
+      </Head>
+
       <main>
         <div
           className="w-full min-h-[1200px] bg-center bg-no-repeat bg-cover flex items-center justify-center mobile:min-h-[900px]"
