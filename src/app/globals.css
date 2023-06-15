@@ -21,21 +21,21 @@ main {
 span {
   color: #e8bd00;
 }
-/* 
+
 ::-webkit-scrollbar {
-  width: 40px;
-  height: 40px;
+  width: 2px;
+  height: 2px;
 }
 
 ::-webkit-scrollbar-track {
-  background: orange;
+  background: #121212;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: blue;
+  background-color: #EA9C00;
   border-radius: 0px;
   border: 0px solid orange;
-} */
+}
 
 p {
   font-weight: 300 !important;
