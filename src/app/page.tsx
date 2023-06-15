@@ -127,9 +127,9 @@ export default function Page() {
             </div>
 
             <div className="col-span-3 flex flex-col justify-center mobile:mt-10">
-              <H2 id="visualStudioTitle" className="opacity-0">
+              <h2 id="visualStudioTitle" className="text-4xl opacity-0">
                 Sua agencia de publicidade
-              </H2>
+              </h2>
               <ListToCall
                 className="ml-10 opacity-0"
                 id="visualTxt1"
