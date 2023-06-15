@@ -77,7 +77,8 @@ module.exports = {
       },
       gradientMenu: {
         grad: 'linear-gradient(106deg, rgba(51,55,57,1) 0%, rgba(24,24,25,1) 48%, rgba(51,55,57,1) 100%)'
-      }
+      },
+      backgroundColor: 'opacity-cinza:rgba(0, 0, 0, 0.05)'
     },
   },
   plugins: [],
