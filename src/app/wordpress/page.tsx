@@ -2,14 +2,11 @@
 import Image from "next/image";
 
 import Bg from "./../../img/wordpress/bg-site-wordpress-is.webp";
-import BgMobile from "./../../img/wordpress/bg-site-wordpress-is-mobile.webp";
 
 import Particula from "./../../img/wordpress/isaques-estudios-particulas.webp";
-import ParticulaMobile from "./../../img/wordpress/isaques-estudios-particulas-mobile.webp";
 
 import H2 from "@/components/global/Title/H2";
 import Wordpress from "./../../img/wordpress/sites-em-wordpress.png";
-import Main from "@/components/global/Layout/Main";
 
 import Chart from "./../../img/wordpress/alavanque-seu-site-em-wp.webp";
 import H3 from "@/components/global/Title/H3";
@@ -20,8 +17,6 @@ import Benefits from "@/components/global/Topics/Benefits";
 import Logos from "./../../img/wordpress/integração-do-google.jpg";
 
 import AutoSlideWordpress from "@/components/global/Slide/AutoSlideWordpress";
-import { useEffect } from "react";
-import Head from "next/head";
 
 export default function Page() {
   return (
