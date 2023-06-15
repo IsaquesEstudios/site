@@ -28,19 +28,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {/* <Suspense fallback={<Loading />}> */}
         <Nav />
-        {/* <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-TW592H4"
-            height="0"
-            width="0"
-          />
-        </noscript> */}
         {children}
         <Footer />
-        {/* <Analytics /> */}
-        {/* </Suspense> */}
       </body>
     </html>
   );

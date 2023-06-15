@@ -10,13 +10,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Contato - Isaques Estúdios</title>
-        <meta
-          name="description"
-          content="Fale conosco isaques estúdios, contato com equipe profissional"
-        />
 
-        <link rel="canonical" href="https://isaquesestudios.com/contato" />
       </Head>
 
       <Main>

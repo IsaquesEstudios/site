@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-        <title>Sites em wordpress - Tenha seu site pronto em wordpress</title>
+        <title>Sites em wordpress - Tenha seu site pronto em wordpress para sua empresa</title>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -39,7 +39,6 @@ export default function RootLayout({
         <link rel="canonical" href="https://isaquesestudios.com/wordpress" />
       </head>
       <body>
-        <Nav />
         {children}
       </body>
     </html>
