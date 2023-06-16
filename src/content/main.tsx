@@ -1,21 +1,20 @@
 "use client";
-import { useEffect } from "react";
-
 import Main from "@/components/global/Layout/Main";
 import Image from "next/image";
-
 import Conhecer from "./../img/index/conhecer.svg";
 import Você from "./../img/index/voce.svg";
 import Section from "@/components/global/Layout/Section";
-
-import { gsap } from "gsap";
-
 import VisualIdentify from "./../img/index/identidade-visual-isaques-estudios.jpg";
 import ListToCall from "@/components/global/ListToCall/ListToCall";
 import Marketing from "@/img/index/marketing-digital.jpg";
 import Programing from "./../img/index/isaques-estúdios-criação-de-site.jpg";
-import H2 from "@/components/global/Title/H2";
+
+import { gsap } from "gsap";
+import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+import Is from './../img/index/isaques-estudios.webp'
+import IsMobile from './../img/index/isaques-estudios-mobile.webp'
 
 export default function Page() {
   useEffect(() => {
@@ -62,11 +61,12 @@ export default function Page() {
     t3.to("#programmingImg", { opacity: 1 });
     t3.to("#programmingText1", { marginLeft: 0, opacity: 1 });
   });
+
   return (
     <>
       <Main>
         <div
-          className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 bg-[url('/_next/static/media/isaques-estudios.690abb82.webp')] tablet:bg-[url('/_next/static/media/isaques-estudios-mobile.9f3f11cb.webp')] mobile:flex-col mobile:items-start mobile:h-full `}
+          className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 bg-[url('${Is.src}')] tablet:bg-[url('${IsMobile.src}')] mobile:flex-col mobile:items-start mobile:h-full `}
         >
           <div className="pb-[18vw] tablet:pb-[325px] mobile:h-screen mobile:flex mobile:justify-end mobile:flex-col mobile:pb-[75px]">
             <p className="ml-[5%] text-4xl  font-light opacity-0" id="omundo">
@@ -105,7 +105,10 @@ export default function Page() {
             </div>
 
             <div className="col-span-3 flex flex-col justify-center mobile:mt-10">
-              <h1 id="visualStudioTitle" className="text-7xl opacity-0 tablet:text-5xl font-semibold mobile:text-4xl">
+              <h1
+                id="visualStudioTitle"
+                className="text-7xl opacity-0 tablet:text-5xl font-semibold mobile:text-4xl"
+              >
                 Agencia de publicidade para empresas
               </h1>
               <ListToCall
@@ -139,7 +142,10 @@ export default function Page() {
 
           <div className="flex mobile:flex-col-reverse">
             <div className="flex flex-col justify-center mobile:mt-10">
-              <h2 id="marketingTitle" className="text-7xl opacity-0 tablet:text-5xl font-semibold mobile:text-4xl">
+              <h2
+                id="marketingTitle"
+                className="text-7xl opacity-0 tablet:text-5xl font-semibold mobile:text-4xl"
+              >
                 Agencia de marketing
               </h2>
               <ListToCall
@@ -191,7 +197,7 @@ export default function Page() {
                 id="programmingTitle"
                 className="text-7xl opacity-0 tablet:text-5xl font-semibold mobile:text-4xl"
               >
-               Alcance novos clientes
+                Alcance novos clientes
               </h2>
               <ListToCall
                 id="programmingText1"

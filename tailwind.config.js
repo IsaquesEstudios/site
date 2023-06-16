@@ -79,7 +79,7 @@ module.exports = {
         grad: "linear-gradient(106deg, rgba(51,55,57,1) 0%, rgba(24,24,25,1) 48%, rgba(51,55,57,1) 100%)",
       },
       backgroundImage: {
-        "homepage": "url('./src/img/index/isaques-estudios.webp')",
+        "homepage": "url('@/src/img/index/isaques-estudios.webp')",
       },
     },
   },

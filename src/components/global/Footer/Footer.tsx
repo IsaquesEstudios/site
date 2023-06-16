@@ -37,7 +37,7 @@ export default function Footer() {
         <div>
           <h4 className="text-2xl  mobile:text-xl  mb-1">Marketing</h4>
           <ul>
-            <LiLink href="/campanhas">Campanhas nas redes sociais</LiLink>
+            <LiLink href="/trafego-pago">Tráfego Pago</LiLink>
           </ul>
         </div>
 

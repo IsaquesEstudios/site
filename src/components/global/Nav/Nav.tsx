@@ -37,7 +37,10 @@ export default function Nav() {
           open && "mobile:hidden"
         } mobile:max-w-[80%] mobile:items-start mobile:justify-start`}
       >
-        <div id="contentNav" className=" opacity-0 items-center justify-between w-full  max-w-[90%] m-auto">
+        <div
+          id="contentNav"
+          className=" opacity-0 items-center justify-between w-full  max-w-[90%] m-auto"
+        >
           <div className="mobile:hidden">
             <Logo src={WhiteLogo} alt="Logo isaques estúdios" height={24} />
           </div>
