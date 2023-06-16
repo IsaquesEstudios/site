@@ -1,5 +1,4 @@
-// "use client"
-
+"use client";
 import { useEffect } from "react";
 
 import Main from "@/components/global/Layout/Main";
@@ -17,78 +16,55 @@ import Marketing from "@/img/index/marketing-digital.jpg";
 import Programing from "./../img/index/isaques-estúdios-criação-de-site.jpg";
 import H2 from "@/components/global/Title/H2";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Metadata } from "next";
-import MainPage from "@/content/main";
-
-export const metadata: Metadata = {
-  title: "Agencia de Publicidade para expandir o marketing da sua Empresa",
-  description:
-    "Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital tudo que sua empresa precisa para crescer",
-  keywords: "agencia,publicidade,marketing,sites",
-  alternates: {
-    languages: {
-      "pt-BR": "/",
-    },
-    canonical: "/",
-  },
-  openGraph: {
-    title: "Agencia de Publicidade para expandir o marketing da sua Empresa",
-    description:
-      "Nossa agencia de publicidade oferece serviço de criação de sites, sistemas, aplicativos, marketing digital tudo que sua empresa precisa para crescer",
-    locale: "pt-BR",
-    type: "website",
-  },
-};
 
 export default function Page() {
-  // useEffect(() => {
-  //   gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
-  //   gsap.to("#omundo", { opacity: 1, duration: 1 });
-  //   gsap.to("#conhecer", { opacity: 1, duration: 0.5, delay: 0.6 });
-  //   gsap.to("#você", { opacity: 1, duration: 1, delay: 0.6 });
-  //   gsap.to("#mostre", { opacity: 1, duration: 1, delay: 1.2 });
+    gsap.to("#omundo", { opacity: 1, duration: 1 });
+    gsap.to("#conhecer", { opacity: 1, duration: 0.5, delay: 0.6 });
+    gsap.to("#você", { opacity: 1, duration: 1, delay: 0.6 });
+    gsap.to("#mostre", { opacity: 1, duration: 1, delay: 1.2 });
 
-  //   gsap.to("#img1", {
-  //     opacity: 1,
-  //     scrollTrigger: {
-  //       start: "20% 30%",
-  //     },
-  //   });
+    gsap.to("#img1", {
+      opacity: 1,
+      scrollTrigger: {
+        start: "20% 30%",
+      },
+    });
 
-  //   const t1 = gsap.timeline({
-  //     scrollTrigger: {
-  //       start: "20% 30%",
-  //     },
-  //   });
+    const t1 = gsap.timeline({
+      scrollTrigger: {
+        start: "20% 30%",
+      },
+    });
 
-  //   t1.to("#visualStudioTitle", { opacity: 1 });
-  //   t1.to("#visualTxt1", { marginLeft: 0, opacity: 1 });
+    t1.to("#visualStudioTitle", { opacity: 1 });
+    t1.to("#visualTxt1", { marginLeft: 0, opacity: 1 });
 
-  //   const t2 = gsap.timeline({
-  //     scrollTrigger: {
-  //       start: "40% 50%",
-  //     },
-  //   });
+    const t2 = gsap.timeline({
+      scrollTrigger: {
+        start: "40% 50%",
+      },
+    });
 
-  //   t2.to("#imgMarketing", { opacity: 1 });
-  //   t2.to("#marketingTitle", { opacity: 1 });
-  //   t2.to("#marketingTxt1", { paddingLeft: 0, opacity: 1 });
+    t2.to("#imgMarketing", { opacity: 1 });
+    t2.to("#marketingTitle", { opacity: 1 });
+    t2.to("#marketingTxt1", { paddingLeft: 0, opacity: 1 });
 
-  //   const t3 = gsap.timeline({
-  //     scrollTrigger: {
-  //       start: "60% 70%",
-  //     },
-  //   });
+    const t3 = gsap.timeline({
+      scrollTrigger: {
+        start: "60% 70%",
+      },
+    });
 
-  //   t3.to("#programmingTitle", { opacity: 1 });
-  //   t3.to("#programmingImg", { opacity: 1 });
-  //   t3.to("#programmingText1", { marginLeft: 0, opacity: 1 });
-  // });
+    t3.to("#programmingTitle", { opacity: 1 });
+    t3.to("#programmingImg", { opacity: 1 });
+    t3.to("#programmingText1", { marginLeft: 0, opacity: 1 });
+  });
   return (
     <>
-    <MainPage />
-      {/* <Main>
+      <Main>
         <div
           className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 bg-[url('/_next/static/media/isaques-estudios.690abb82.webp')] tablet:bg-[url('/_next/static/media/isaques-estudios-mobile.9f3f11cb.webp')] mobile:flex-col mobile:items-start mobile:h-full `}
         >
@@ -246,7 +222,7 @@ export default function Page() {
             </div>
           </div>
         </Section>
-      </Main> */}
+      </Main>
     </>
   );
 }

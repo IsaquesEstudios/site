@@ -15,8 +15,8 @@ interface ListToCall {
 export default function ListToCall({ Title, Paragraph, ButtonText,id, align, className, ...rest }: ListToCall) {
 
   return (
-    <div id={id} className={`mt-8 flex flex-col items-start ${className}`}>
-      <H3>{Title}</H3>
+    <div id={id} className={`mt-4 flex flex-col items-start ${className}`}>
+      <h3 className='text-2xl'>{Title}</h3>
       <p className='mt-1'>{Paragraph}</p>
       <div className="flex items-center text-yellow-800 cursor-pointer mt-1">
         <p className='mr-2 duration-500 hover:mr-4'>{ButtonText}</p>
