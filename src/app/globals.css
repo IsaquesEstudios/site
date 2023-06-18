@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
   margin: 0px;
   padding: 0px;
@@ -39,7 +38,4 @@ span {
 
 p {
   font-weight: 300 !important;
-}
-
-em {
 }
