@@ -11,10 +11,10 @@ import { IoStorefrontOutline } from "react-icons/io5";
 import { MdOutlineAppRegistration, MdOutlineScreenSearchDesktop, MdSell } from "react-icons/md";
 
 
-import SearchGoogle from "./../img/trafficManagement/google-ads.gif";
-import Phone from "./../img/trafficManagement/marketing-nas-redes-sociais.gif";
+import SearchGoogle from "./../../img/trafficManagement/google-ads.gif";
+import Phone from "./../../img/trafficManagement/marketing-nas-redes-sociais.gif";
 
-import Contact from "./../img/trafficManagement/ao-contratar-isaques-estúdios.png";
+import Contact from "./../../img/trafficManagement/ao-contratar-isaques-estúdios.png";
 import Main from "@/components/global/Layout/Main";
 
 
