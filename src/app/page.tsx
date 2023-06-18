@@ -11,8 +11,8 @@ import { gsap } from "gsap";
 import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import Is from './../img/index/isaques-estudios.webp'
-import IsMobile from './../img/index/isaques-estudios-mobile.webp'
+import Is from "./../img/index/isaques-estudios.webp";
+import IsMobile from "./../img/index/isaques-estudios-mobile.webp";
 import Section from "@/components/global/Layout/Section";
 
 // export const metadata: Metadata = {
@@ -36,22 +36,19 @@ import Section from "@/components/global/Layout/Section";
 // };
 
 export default function Page() {
-
   return (
     <>
       <Main>
         <div
-          className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 bg-[url('/_next/static/media/isaques-estudios.690abb82.webp')] tablet:bg-[url('/_next/static/media/isaques-estudios-mobile.9f3f11cb.webp')] mobile:flex-col mobile:items-start mobile:h-full `}
+          id="bg-img-main"
+          className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 mobile:flex-col mobile:items-start mobile:h-full `}
         >
           <div className="pb-[18vw] tablet:pb-[325px] mobile:h-screen mobile:flex mobile:justify-end mobile:flex-col mobile:pb-[75px]">
             <p className="ml-[5%] text-4xl  font-light" id="omundo">
               O mundo precisa
             </p>
             <div className="flex justify-between items-end mx-[5%] mobile:flex-col mobile:items-start">
-              <div
-                className="w-[50%] mobile:w-[85%] mobile:mt-4"
-                id="conhecer"
-              >
+              <div className="w-[50%] mobile:w-[85%] mobile:mt-4" id="conhecer">
                 <Image
                   src={Conhecer}
                   height={400}

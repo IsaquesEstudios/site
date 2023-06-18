@@ -39,3 +39,13 @@ span {
 p {
   font-weight: 300 !important;
 }
+
+#bg-img-main{
+  background-image: url("./../img/index/isaques-estudios.webp");
+}
+
+@media (max-width: 768px) {
+  #bg-img-main{
+    background-image: url("./../img/index/isaques-estudios-mobile.webp");
+  }
+}
