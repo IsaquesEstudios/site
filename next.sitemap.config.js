@@ -8,4 +8,3 @@ module.exports = {
     ],
   },
 }
-    // "postbuild": "next-sitemap --config next.sitemap.config.js"

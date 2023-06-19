@@ -3,9 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://isaquesestudios.com.br
+Host: https://isaquesestudios.com
 
 # Sitemaps
-Sitemap: https://isaquesestudios.com.br/sitemap-0.xml
-
-
+Sitemap: https://isaquesestudios.com/sitemap.xml
+Sitemap: https://isaquesestudios.com/server-sitemap.xml
