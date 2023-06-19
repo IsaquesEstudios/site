@@ -45,7 +45,7 @@ export default function SocialMedia() {
     <>
       <Main>
         <Section>
-          <div className="flex items-center tablet:flex-col-reverse min-h-[100vh]">
+          <div className="flex items-center justify-center tablet:flex-col-reverse mt-32">
             <div className="flex justify-center flex-col mr-20 tablet:mr-0">
               <h1 className="text-7xl font-semibold tablet:mt-10 tablet:text-3xl mobile:text-2xl mobile:mb-1">
                 Venda até <span>10x</span> mais pela <span>internet</span>
@@ -63,7 +63,7 @@ export default function SocialMedia() {
               </p>
               <Button>Falar com um consultor pelo whatsapp</Button>
             </div>
-            <div className="grow-1 flex-auto w-full">
+            <div className="grow-1 flex-auto w-full mobile:grow-0">
               <Image
                 src={SearchGoogle}
                 alt="Melhorar minhas pesquisa no google"
@@ -72,17 +72,15 @@ export default function SocialMedia() {
           </div>
 
           <div className="text-center mt-32 max-w-[70%] m-auto mobile:max-w-[90%]">
-            <h2 className="text-7xl font-semibold mb-4">
+            <h2 className="text-7xl font-semibold mb-4 mobile:text-5xl">
               <span>Aumente</span> o potencial de <span>vendas</span> do seu
               negócio
             </h2>
-
             <p>
               Ajudamos a sua empresa a aumentar as vendas com estratégias de
               marketing e anúncios nas principais plataformas da internet:
               google, facebook, instagram, youtube e tiktok
             </p>
-
             <p>
               Clique no botão abaixo para entrar em contato com a nossa equipe e
               garanta um benefício exclusivo!
@@ -94,9 +92,9 @@ export default function SocialMedia() {
               <Image src={Phone} alt="divulgações nas redes sociais" />
             </div>
 
-            <div className="flex-1 mobile:mt-10">
+            <div className="flex-1 mobile:mt-10 mb-52">
               <h3 className="text-5xl font-semibold mb-4">
-                Deixe sua empresa<span>mais visível</span>
+                Deixe sua empresa<span>{" "}mais visível</span>
               </h3>
               <p className="mb-4 mt-2">para quem...</p>
               <ul>
@@ -110,12 +108,12 @@ export default function SocialMedia() {
           </div>
 
           <div className="mt-40 mobile:mt-0 ">
-            <h4 className="text-7xl text-center font-semibold">
+            <h4 className="text-7xl text-center font-semibold mobile:text-5xl">
               Porque contratar um
               <br /> <span>gestor de tráfego?</span>
             </h4>
 
-            <div className="grid pt-20 grid-cols-3 my-14 mobile:grid-cols-1 mobile:my-10 mobile:gap-y-5">
+            <div className="grid pt-20 grid-cols-3 my-14 mobile:grid-cols-1 mobile:my-10 mobile:gap-y-5 mobile:pt-0">
               <IconText
                 title="Tráfego"
                 text="Para trazer uma campanha de marketing de sucesso e sem jogar dinheiro fora, você precisa ter experiência e habilidade de gestão de tráfego."
@@ -147,10 +145,10 @@ export default function SocialMedia() {
           className="mt-40 bg-center bg-no-repeat bg-cover w-full h-[400px] flex items-center"
           style={{ backgroundImage: `url(${Contact.src})` }}
         >
-          <p className="ml-[5%] text-[2.25rem] font-bold mobile:text-center">
+          <h5 className="ml-[5%] text-7xl font-semibold mobile:text-center mobile:text-5xl">
             Ao <span>contratar</span> a <span>Isaques Estúdios</span>
             <br /> você terá...
-          </p>
+          </h5>
         </div>
 
         <Section>

@@ -90,13 +90,12 @@ export default function Footer() {
             contato@isaquesestudios.com
           </div>
 
-          <Link
-            href="https://www.google.com.br/maps/@-23.5959002,-46.705497,12.25z?entry=ttu"
+          <div
             className="flex items-center mt-2"
           >
             <TfiMapAlt color="white" className="mr-1 " />
             São Paulo - SP
-          </Link>
+          </div>
         </div>
       </footer>
     </>

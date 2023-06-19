@@ -7,3 +7,5 @@ Host: https://isaquesestudios.com.br
 
 # Sitemaps
 Sitemap: https://isaquesestudios.com.br/sitemap-0.xml
+
+
