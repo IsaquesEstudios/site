@@ -39,7 +39,7 @@ export default function Nav() {
       >
         <div
           id="contentNav"
-          className=" opacity-0 items-center justify-between w-full  max-w-[90%] m-auto"
+          className=" opacity-0 items-center justify-between w-full  max-w-[90%] m-auto mobile:m-0"
         >
           <div className="mobile:hidden">
             <Logo src={WhiteLogo} alt="Logo isaques estúdios" height={24} />

@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <>
       <div className="h-[0.5px] w-full bg-gradient-to-r from-black-600 via-black-800 to-black-700"></div>
-      <footer className="bg-black-800 py-20 px-[5%] grid grid-cols-6 gap-x-4 tablet:grid-cols-3 mobile:grid-cols-2">
+      <footer className="bg-black-800 py-20 px-[5%] grid grid-cols-6 gap-x-4 tablet:grid-cols-3 mobile:grid-cols-2 mobile:pt-10 mobile:gap-y-4">
         <div className="col-span-2">
           <h3 className="text-2xl">Sobre a Isaques Estúdios</h3>
           <p>
@@ -80,10 +80,10 @@ export default function Footer() {
 
           <h5 className="mt-4 text-2xl">Contato</h5>
 
-          <Link href="tel:+5511983404368" className="flex items-center mt-2">
+          <div className="flex items-center mt-2">
             <BsTelephone className="mr-1" />
             +55 1193840-4368
-          </Link>
+          </div>
 
           <div className="flex items-center mt-2 w-full">
             <FiMail className="mr-1" />

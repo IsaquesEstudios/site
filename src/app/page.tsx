@@ -41,7 +41,7 @@ export default function Page() {
       <Main>
         <div
           id="bg-img-main"
-          className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 mobile:flex-col mobile:items-start mobile:h-full `}
+          className={`bg-no-repeat bg-center bg-cover h-screen w-full flex items-end mb-32 mobile:flex-col mobile:items-start mobile:h-full mobile:mb-8 `}
         >
           <div className="pb-[18vw] tablet:pb-[325px] mobile:h-screen mobile:flex mobile:justify-end mobile:flex-col mobile:pb-[75px]">
             <p className="ml-[5%] text-4xl  font-light" id="omundo">
@@ -76,10 +76,10 @@ export default function Page() {
               <Image src={VisualIdentify} alt="Criação de identidade visual" />
             </div>
 
-            <div className="col-span-3 flex flex-col justify-center mobile:mt-10">
+            <div className="col-span-3 flex flex-col justify-center mobile:mt-6">
               <h1
                 id="visualStudioTitle"
-                className="text-7xl tablet:text-5xl font-semibold mobile:text-4xl"
+                className="text-7xl tablet:text-5xl font-semibold mobile:text-3xl"
               >
                 Agencia de publicidade para empresas
               </h1>
@@ -116,7 +116,7 @@ export default function Page() {
             <div className="flex flex-col justify-center mobile:mt-10">
               <h2
                 id="marketingTitle"
-                className="text-7xl tablet:text-5xl font-semibold mobile:text-4xl"
+                className="text-7xl tablet:text-5xl font-semibold mobile:text-3xl"
               >
                 Agencia de marketing
               </h2>
@@ -156,7 +156,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="grid grid-cols-9 gap-x-12 my-32 mobile:grid-cols-2 mobile:my-[0] mobile:flex mobile:flex-col">
+          <div className="grid grid-cols-9 gap-x-12 my-32 mobile:grid-cols-2 mobile:my-[0] mobile:flex mobile:flex-col mobile:mb-10">
             <div id="programmingImg" className="col-span-5">
               <Image
                 src={Programing}
