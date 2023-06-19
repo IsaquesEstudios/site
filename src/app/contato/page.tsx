@@ -3,16 +3,33 @@ import Input from "@/components/global/Input/Input";
 import Main from "@/components/global/Layout/Main";
 import H3 from "@/components/global/Title/H3";
 import Benefits from "@/components/global/Topics/Benefits";
+import { Metadata } from "next";
 import Head from "next/head";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Fale conosco",
+  description:
+    "Reclamações, duvidas e sugestões, entre em contato conosco e responderemos no máximo em 48H ",
+  keywords: "contato, whatsapp, isaques",
+  alternates: {
+    languages: {
+      "pt-BR": "https://isaquesestudios.com/contato",
+    },
+    canonical: "https://isaquesestudios.com/contato",
+  },
+  openGraph: {
+    title: "Fale conosco",
+    description:
+      "Reclamações, duvidas e sugestões, entre em contato conosco e responderemos no máximo em 48H ",
+    locale: "pt-BR",
+    type: "website",
+  },
+};
 
 export default function Page() {
   return (
     <>
-      <Head>
-
-      </Head>
-
       <Main>
         <div className="pt-[150px] px-[5%] grid grid-cols-2 mobile:grid-cols-1 mobile:pt-[125px]">
           <div className="flex items-start flex-col justify-start">

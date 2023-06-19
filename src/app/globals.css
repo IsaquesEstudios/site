@@ -31,7 +31,7 @@ span {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #EA9C00;
+  background-color: #ea9c00;
   border-radius: 0px;
   border: 0px solid orange;
 }
@@ -40,12 +40,27 @@ p {
   font-weight: 300 !important;
 }
 
-#bg-img-main{
+#bg-img-main {
   background-image: url("./../img/index/isaques-estudios.webp");
 }
 
 @media (max-width: 768px) {
-  #bg-img-main{
+  #bg-img-main {
     background-image: url("./../img/index/isaques-estudios-mobile.webp");
+  }
+}
+
+#opacity {
+  animation: opacity 1s forwards linear;
+
+  opacity: 0;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -1,16 +1,31 @@
 import H2 from "@/components/global/Title/H2";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Política de privacidade empresa isaques estúdios",
+  description:
+    "Nossas políticas de privacidade da empresa",
+  keywords: "Política, privacidade, segurança",
+  alternates: {
+    languages: {
+      "pt-BR": "https://isaquesestudios.com/politica-de-privacidade",
+    },
+    canonical: "https://isaquesestudios.com/politica-de-privacidade",
+  },
+  openGraph: {
+    title: "Política de privacidade empresa isaques estúdios",
+    description:
+      "Nossas políticas de privacidade da empresa",
+    locale: "pt-BR",
+    type: "website",
+  },
+};
+
 
 export default function Page() {
   return (
     <>
-      <head>
-        <title>Politica de privacidade</title>
-        <meta
-          name="description"
-          content="Politica de privacidade do site isaquesestudios.com.br"
-        />
-      </head>
-
       <main className="max-w-[90%] m-auto pt-20 pb-20">
         <h1 className="text-3xl font-bold mb-4"> Política de Privacidade</h1>
 

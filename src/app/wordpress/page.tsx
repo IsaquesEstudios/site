@@ -35,17 +35,17 @@ export default function Page() {
   return (
     <main>
       <div
-        className="w-full min-h-[1200px] bg-center bg-no-repeat bg-cover flex items-center justify-center mobile:min-h-[900px]"
+        className="w-full bg-center bg-no-repeat bg-cover flex items-center justify-center pt-32 mb-32 mobile:mb-10 mobile:pt-20" 
         style={{ backgroundImage: `url('${Bg.src}')` }}
       >
         <div className="flex items-center justify-center flex-col">
-          <h1 className="text-5xl font-semibold text-center mb-4 mobile:text-4xl">
+          <h1 className="text-7xl font-semibold text-center mb-4 mobile:text-5xl">
             Sites em wordpress
           </h1>
-          <div className="w-4/6 my-7 mobile:w-5/6">
+          <div className="w-4/6 mt-7 mobile:w-5/6" id="opacity">
             <Image src={Wordpress} alt="sites em wordpress" />
           </div>
-          <H2 className="text-center">Porque devo ter um site em wordpress?</H2>
+          <H2 className="text-center text-7xl mobile:text-5xl">Porque devo ter um site em wordpress?</H2>
           <p className="max-w-[60%] text-center mobile:max-w-[80%] min-mobile:max-w-[90%]">
             Porque você precisa despertar o poder do seu negócio no mundo
             digital! Aumente sua visibilidade, conquiste novos clientes e
@@ -58,7 +58,7 @@ export default function Page() {
       </div>
 
       <Section>
-        <div className="grid grid-cols-2 gap-x-10 mobile:grid-cols-1">
+        <div className="grid grid-cols-2 gap-x-10 mobile:grid-cols-1 mobile:mt-32">
           <div>
             <Image
               src={Chart}
@@ -67,10 +67,9 @@ export default function Page() {
           </div>
 
           <div className="flex justify-center items-start flex-col mobile:mt-8">
-            <H3>
-              Como ter um e-commerce, blog ou site institucional em wordpress
-              pode me ajudar?
-            </H3>
+            <h3 className="text-5xl font-semibold">
+            E-commerce, blog ou site institucional em wordpress
+            </h3>
             <p className="mt-4">
               Ter um e-commerce, blog ou site institucional no WordPress pode
               ajudar a alcançar um público maior, expandir sua marca, aumentar
@@ -92,9 +91,9 @@ export default function Page() {
         className="min-h-screen w-full bg-center bg-cover flex flex-col items-center justify-center text-center h-full px-[15%] min-[1600px]:m-auto max-w-[1920px] mobile:px-[5%]"
         style={{ backgroundImage: `url('${Particula.src}')` }}
       >
-        <H2>
-          Temos uma das melhores hospedagens para <br /> sites em wordpress
-        </H2>
+        <h3 className="text-5xl font-semibold">
+        Uma das melhores hospedagens para sites em wordpress
+        </h3>
         <p>
           Nossa hospedagem especializada para WordPress e aproveite um
           desempenho e confiabilidade excepcionais para o seu site. Nossa
@@ -110,13 +109,13 @@ export default function Page() {
 
       <Section className="my-[120px] mobile:my-[75px]">
         <div className="text-center mobile:text-start">
-          <H2 className="mb-4 mobile:mb-0">
-            Quais as principais vantagens de usar WordPress ?
-          </H2>
+          <h4 className="text-5xl font-semibold mb-4 mobile:mb-0">
+            Principais vantagens de usar WordPress
+          </h4>
 
-          <H3 className={"mb-20 mobile:mb-2"}>
+          <h5 className="text-2xl font-medium mb-20 mobile:mb-10">
             Separamos seis benefícios de usar WordPress
-          </H3>
+          </h5>
 
           <div className="grid grid-cols-3 grid-rows-2 gap-x-10 gap-y-10 mobile:grid-cols-2 mobile:gap-x-4 mobile:gap-y-4 min-mobile:grid-cols-1">
             <Benefits
@@ -171,7 +170,7 @@ export default function Page() {
           <Image src={Logos} alt="integração do google com o site" />
         </div>
 
-        <div className="text-center w-full h-full px-[5%] min-[1600px]:m-auto max-w-[1920px]">
+        <div className="text-center w-full h-full px-[5%] min-[1600px]:m-auto max-w-[1920px] mobile:mb-24">
           <H2 className={"mb-4"}>
             Otimize sua presença online com a integração perfeita do seu site
             com as ferramentas do Google
