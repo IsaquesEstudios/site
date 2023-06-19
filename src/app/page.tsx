@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   keywords: "agencia,publicidade,marketing,sites",
   alternates: {
     languages: {
-      "pt-BR": "/",
+      "pt-BR": "https://isaquesestudios.com/",
     },
-    canonical: "/",
+    canonical: "https://isaquesestudios.com/",
   },
   openGraph: {
     title: "Agencia de Publicidade para expandir o marketing da sua Empresa",

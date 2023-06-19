@@ -98,6 +98,10 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+      <div className="bg-red-50">
+        <p>Todosa os direitos reservados a Isaques Estúdios</p>
+        <p><Link href="politica-de-privacidade">Politica de privacidade</Link> & <Link href="/termos-de-uso">termos de uso</Link></p>
+      </div>
     </>
   );
 }
