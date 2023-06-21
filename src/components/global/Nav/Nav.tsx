@@ -21,6 +21,7 @@ export default function Nav() {
     timeLine.to("#contentNav", { opacity: 1, transition: 0.5 });
   }, []);
 
+
   return (
     <>
       <RxHamburgerMenu

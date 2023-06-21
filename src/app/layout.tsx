@@ -26,6 +26,14 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TW592H4"
+            height="0"
+            width="0"
+            className="hidden"
+          ></iframe>
+        </noscript>
         <Nav />
         {children}
         <Footer />

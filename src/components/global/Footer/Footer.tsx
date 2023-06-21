@@ -48,7 +48,13 @@ export default function Footer() {
           </ul>
         </div>
 
-        <ul></ul>
+        <div>
+          <h4 className="text-2xl  mobile:text-xl  mb-1">Outros</h4>
+          <ul>
+            <LiLink href="/wordpress">Termos de uso</LiLink>
+            <LiLink href="/wordpress">Política de privacidade</LiLink>
+          </ul>
+        </div>
 
         {/* line two */}
 
@@ -90,17 +96,18 @@ export default function Footer() {
             contato@isaquesestudios.com
           </div>
 
-          <div
-            className="flex items-center mt-2"
-          >
+          <div className="flex items-center mt-2">
             <TfiMapAlt color="white" className="mr-1 " />
             São Paulo - SP
           </div>
         </div>
       </footer>
-      <div className="bg-red-50">
+      <div className="text-center text-xs border-t border-black-600 pt-4 pb-4">
         <p>Todosa os direitos reservados a Isaques Estúdios</p>
-        <p><Link href="politica-de-privacidade">Politica de privacidade</Link> & <Link href="/termos-de-uso">termos de uso</Link></p>
+        <p>
+          <Link href="/politica-de-privacidade">Politica de privacidade</Link> &{" "}
+          <Link href="/termos-de-uso">termos de uso</Link>
+        </p>
       </div>
     </>
   );
