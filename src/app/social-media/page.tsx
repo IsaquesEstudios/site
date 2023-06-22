@@ -5,6 +5,7 @@ import "./style.css";
 import PlayerBackground from "@/components/social-media/PlayerBackground";
 import H2 from "@/components/global/Title/H2";
 import H3 from "@/components/global/Title/H3";
+import Cam from "@/components/global/3d/cam";
 
 export default function Page() {
   return (
@@ -111,8 +112,8 @@ export default function Page() {
         </div>
       </Section>
 
-      <section className="min-h-[100vh] relative">
-        <div className="absolute top-20 left-[5%] max-w-[50%] h-full flex flex-col justify-center">
+      <section className="min-h-[100vh] relative grid grid-cols-2">
+        <div className="top-20 left-[5%] max-w-[50%] h-full flex flex-col justify-center">
           <h2 className="text-7xl font-semibold mb-2">
             Tenha o que grandes empresas precisam
           </h2>
