@@ -1,20 +1,20 @@
 // 'use client'
 import Image from "next/image";
 
-import Bg from "./../../img/wordpress/bg-site-wordpress-is.webp";
+import Bg from "./../../../img/wordpress/bg-site-wordpress-is.webp";
 
-import Particula from "./../../img/wordpress/isaques-estudios-particulas.webp";
+import Particula from "./../../../img/wordpress/isaques-estudios-particulas.webp";
 
 import H2 from "@/components/global/Title/H2";
-import Wordpress from "./../../img/wordpress/sites-em-wordpress.png";
+import Wordpress from "./../../../img/wordpress/sites-em-wordpress.png";
 
-import Chart from "./../../img/wordpress/alavanque-seu-site-em-wp.webp";
+import Chart from "./../../../img/wordpress/alavanque-seu-site-em-wp.webp";
 import H3 from "@/components/global/Title/H3";
 import Section from "@/components/global/Layout/Section";
 import Button from "@/components/global/Button/Button";
 
 import Benefits from "@/components/global/Topics/Benefits";
-import Logos from "./../../img/wordpress/integração-do-google.jpg";
+import Logos from "./../../../img/wordpress/integração-do-google.jpg";
 
 import AutoSlideWordpress from "@/components/global/Slide/AutoSlideWordpress";
 import { Metadata } from "next";

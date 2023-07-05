@@ -12,9 +12,9 @@ import { MdOutlineAppRegistration, MdOutlineScreenSearchDesktop, MdSell } from "
 
 
 import SearchGoogle from "./../../../img/trafficManagement/google-ads.gif";
-import Phone from "./../../img/trafficManagement/marketing-nas-redes-sociais.gif";
+import Phone from "./../../../img/trafficManagement/marketing-nas-redes-sociais.gif";
 
-import Contact from "./../../img/trafficManagement/ao-contratar-isaques-estúdios.png";
+import Contact from "./../../../img/trafficManagement/ao-contratar-isaques-estúdios.png";
 import Main from "@/components/global/Layout/Main";
 
 
