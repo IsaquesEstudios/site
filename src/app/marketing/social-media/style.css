@@ -67,7 +67,7 @@
 }
 
 #SocialMediaEmpresas {
-  background-image: url("./../../img/social-media/media.jpg");
+  background-image: url("./../../../img/social-media/media.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -89,7 +89,7 @@
 }
 
 #camBackground {
-  background-image: url("./../../img/social-media/Fotografia.jpg");
+  background-image: url("./../../../img/social-media/Fotografia.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
