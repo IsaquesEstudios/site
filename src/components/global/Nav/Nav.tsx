@@ -1,58 +1,279 @@
 "use client";
 
-import Logo from "./Logo";
-
-import WhiteLogo from "./../../../img/global/isaques-estúdios-logo-letra-branco.png";
-import Links from "./Links";
-import { gsap } from "gsap";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-
-import { RxHamburgerMenu } from "react-icons/rx";
+import "./style.css";
 
 export default function Nav() {
-  const [open, setOpen] = useState(true);
+  const [designe, setDesigne] = useState(false);
+  const [marketing, setMarketing] = useState(false);
+  const [programming, setProgramming] = useState(false);
+  const [checkbox, setCheckbox] = useState(false);
 
-  useEffect(() => {
-    const timeLine = gsap.timeline();
+  function setDesigneFunction() {
+    setDesigne(!designe);
+    setMarketing(false);
+    setProgramming(false);
+  }
 
-    timeLine.to("#nav", { width: "100%", transition: 1, delay: 1 });
-    timeLine.to("#borderNav", { width: "100%", transition: 0.5, delay: 0 });
-    timeLine.to("#contentNav", { display: "flex", delay: 0 });
-    timeLine.to("#contentNav", { opacity: 1, transition: 0.5 });
-  }, []);
+  function setMarketingFunction() {
+    setDesigne(false);
+    setMarketing(!marketing);
+    setProgramming(false);
+  }
 
+  function setProgrammingFunction() {
+    setDesigne(false);
+    setMarketing(false);
+    setProgramming(!programming);
+  }
 
   return (
     <>
-      <RxHamburgerMenu
+      <div
+        className="fixed top-8 right-[5%] z-50 h-8 w-10 flex flex-col justify-between cursor-pointer"
         onClick={() => {
-          setOpen(!open);
+          setCheckbox(!checkbox);
         }}
-        size={30}
-        className="fixed top-6 right-10 z-50 hidden mobile:block"
-      />
-      <nav
-        id="nav"
-        className={`w-full h-16 fixed top-0 z-20 bg-transparent backdrop-blur-sm flex justify-center items-center mobile:h-screen mobile:bg-black-800  
-        flex-col ${
-          open && "mobile:hidden"
-        } mobile:max-w-[80%] mobile:items-start mobile:justify-start`}
       >
-        <div
-          id="contentNav"
-          className=" opacity-0 items-center justify-between w-full  max-w-[90%] m-auto mobile:m-0"
-        >
-          <div className="mobile:hidden">
-            <Logo src={WhiteLogo} alt="Logo isaques estúdios" height={24} />
-          </div>
+        <div className="relative h-8 w-full">
+          <input
+            id="checkboxMenu"
+            type="checkbox"
+            checked={checkbox}
+            className="fixed -top-10"
+          />
+          <div
+            id="lineCheckBox"
+            className="bg-white-900 h-1 w-10 rounded-xl absolute "
+          />
+          <div
+            id="lineCheckBox"
+            className="bg-white-900 h-1 w-10 rounded-xl absolute "
+          />
+          <div
+            id="lineCheckBox"
+            className="bg-white-900 h-1 w-10 rounded-xl absolute "
+          />
+        </div>
+      </div>
 
-          <Links />
+      <nav
+        className={`h-screen w-full flex items-center justify-center fixed top-0 bg-black-800 ${
+          !checkbox && "hidden"
+        } `}
+      >
+        <ul
+          id="menuList"
+          className="overflow-y-scroll w-full  overflow-x-hidden flex flex-col relative ml-[5%] gap-y-10"
+        >
+          <li className="pt-[40%]">
+            <Link
+              className="text-7xl font-semibold text-black-200 hover:text-black-100 transition"
+              href="/"
+              onClick={() => {
+                setCheckbox(!checkbox);
+              }}
+            >
+              Início
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className="text-7xl font-semibold  text-black-200 hover:text-black-100 transition"
+              href="undefined"
+              onMouseOver={() => {
+                setDesigneFunction();
+              }}
+            >
+              Designe
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className="text-7xl font-semibold  text-black-200 hover:text-black-100 transition hover:mr-10"
+              href="undefined"
+              onMouseOver={() => {
+                setMarketingFunction();
+              }}
+            >
+              Marketing
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              className="text-7xl font-semibold  text-black-200 hover:text-black-100 transition"
+              href="undefined"
+              onMouseOver={() => {
+                setProgrammingFunction();
+              }}
+            >
+              Programação
+            </Link>
+          </li>
+
+          <li className="pb-[40%]">
+            <Link
+              className="text-7xl font-semibold  text-black-200 hover:text-black-100 transition"
+              href="undefined"
+              onClick={() => {
+                setCheckbox(!checkbox);
+              }}
+            >
+              Contato
+            </Link>
+          </li>
+        </ul>
+        <div className="h-screen w-full flex items-center ml-[10%]">
+          <ul
+            className={` flex flex-col gap-y-6 ${
+              !designe === true ? "hidden" : "block"
+            }`}
+          >
+            <li className="text-4xl font-bold">Designe</li>
+            <li>
+              <Link
+                className="text-5xl"
+                href="/designe/criacao-de-identidade-visual"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Identidade Visual
+              </Link>
+            </li>
+            {/* <li>
+              <Link
+                className="text-5xl"
+                href="/designe/edicao-de-video"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Edição de Vídeo
+              </Link>
+            </li> */}
+            {/* <li>
+              <Link
+                className="text-5xl"
+                href="/designe/designe-digital"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Designe Digital
+              </Link>
+            </li> */}
+            {/* <li>
+              <Link
+                className="text-5xl"
+                href="/designe/video-institucional"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Vídeos Institucionais
+              </Link>
+            </li> */}
+          </ul>
+
+          <ul
+            className={`flex flex-col gap-y-6 ${
+              !marketing === true ? "hidden" : "block"
+            }`}
+          >
+            <li className="text-4xl font-bold">Marketing</li>
+            <li>
+              <Link
+                href="/marketing/social-media"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Social Media
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/marketing/trafego-pago"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Tráfego Pago
+              </Link>
+            </li>
+            {/* <li>
+              <Link
+                href="undefined"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Otimização de SEO
+              </Link>
+            </li> */}
+          </ul>
+
+          <ul
+            className={`flex flex-col gap-y-6 ${
+              !programming === true ? "hidden" : "block"
+            }`}
+          >
+            <li className="text-4xl font-bold">Programação</li>
+            {/* <li>
+              <Link
+                href="undefined"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Site Profissional
+              </Link>
+            </li> */}
+            <li>
+              <Link
+                href="programacao/wordpress"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Site wordpress
+              </Link>
+            </li>
+            {/* <li>
+              <Link
+                href="undefined"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Sistemas
+              </Link>
+            </li> */}
+            {/* <li>
+              <Link
+                href="undefined"
+                className="text-5xl"
+                onClick={() => {
+                  setCheckbox(!checkbox);
+                }}
+              >
+                Aplicativos
+              </Link>
+            </li> */}
+          </ul>
         </div>
       </nav>
-      <div
-        id="borderNav"
-        className="h-[0.5px] w-0 bg-gradient-to-r from-black-800 via-black-600 to-black-800 fixed top-16 mobile:hidden z-20"
-      />
     </>
   );
 }

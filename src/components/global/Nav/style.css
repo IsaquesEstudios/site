@@ -1,0 +1,29 @@
+#lineCheckBox:nth-child(2) {
+  top: 0px;
+  transition: 1s;
+}
+#lineCheckBox:nth-child(3) {
+  top: 10px;
+  transition: 1s;
+}
+#lineCheckBox:nth-child(4) {
+  top: 20px;
+  transition: 1s;
+}
+
+#checkboxMenu:checked ~ #lineCheckBox:nth-child(2) {
+  display: none;
+  bottom: 0px;
+}
+
+#checkboxMenu:checked ~ #lineCheckBox:nth-child(3) {
+  top: 10px;
+  transform: rotate(50deg);
+}
+#checkboxMenu:checked ~ #lineCheckBox:nth-child(4) {
+  top: 10px;
+  transform: rotate(-50deg);
+}
+
+#checkboxMenu {
+}
