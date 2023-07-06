@@ -33,6 +33,7 @@ export default function RootLayout({
           name="google-site-verification"
           content="M2h9R8mpdIWjAVLPfoTGiyrNS-vS9EKA9AUomMgWjFs"
         />
+        <meta name="p:domain_verify" content="a479840afb20c5f47c22bcb6ce8b718f"/>
       </head>
       <body>
         <noscript>
