@@ -54,10 +54,10 @@ export default function Nav2() {
           <NavItem key={3} LinkString="/trafego-pago">
             Tráfego Pago
           </NavItem>
-          <NavItem key={4} LinkString="/">
+          <NavItem key={4} LinkString="/programacao/wordpress">
             Wordpress
           </NavItem>
-          <NavItem key={5} LinkString="/">
+          <NavItem key={5} LinkString="https://blog.isaquesestudios.com.br/">
             Blog
           </NavItem>
           <NavItem key={6} LinkString="/">
