@@ -39,7 +39,7 @@ export default function Nav2() {
 
       <nav
         className={`fixed top-0 w-full h-[60px] flex justify-center items-center backdrop-blur-sm mobile:h-screen mobile:bg-black-800 mobile:justify-start mobile:items-start ${
-          !checkbox && "hidden"
+          !!checkbox && "hidden"
         }`}
       >
         <ul
