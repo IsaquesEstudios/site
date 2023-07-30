@@ -29,7 +29,6 @@ export default function Page() {
         </div>
       </Section>
 
-      {/* mobile a partir daqui */}
       <Section
         id="SocialMediaEmpresas"
         className={`grid grid-cols-2 min-h-[100vh] items-center my-10 bg-${Empresas.src} mobile:grid-cols-1`}

@@ -1,0 +1,14 @@
+#instagram {
+  background: -webkit-linear-gradient(
+    93deg,
+    rgba(209, 45, 144, 1) 6%,
+    rgba(74, 103, 213, 1) 97%
+  );
+  /* color: #d12d90; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#instagram-2 {
+  color: rgba(209, 45, 144, 1);
+}

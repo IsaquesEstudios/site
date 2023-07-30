@@ -9,6 +9,7 @@ import Link from "next/link";
 import { BsTelephone } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { TfiMapAlt } from "react-icons/tfi";
+import Benefits from "../Topics/Benefits";
 
 export default function Footer() {
   return (
@@ -95,6 +96,31 @@ export default function Footer() {
             <FiMail className="mr-1" />
             contato@isaquesestudios.com
           </div>
+
+          <Benefits
+            className="mt-2"
+            key={1}
+            description={[
+              "whatsapp: (11) 98340-4368",
+              "email: matteus@isaquesestudios.com",
+            ]}
+          />
+          <Benefits
+            className="mt-1"
+            key={1}
+            description={[
+              "whatsapp: (11) 98287-3694",
+              "email: ezequiel@isaquesestudios.com",
+            ]}
+          />
+          <Benefits
+            className="mt-1"
+            key={1}
+            description={[
+              "whatsapp: (11) 97791-9130",
+              "email: abraao@isaquesestudios.com",
+            ]}
+          />
 
           <div className="flex items-center mt-2">
             <TfiMapAlt color="white" className="mr-1 " />

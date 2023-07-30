@@ -1,8 +1,8 @@
-import Button from "@/components/global/Button/Button";
-import Input from "@/components/global/Input/Input";
-import Main from "@/components/global/Layout/Main";
-import H3 from "@/components/global/Title/H3";
-import Benefits from "@/components/global/Topics/Benefits";
+import Button from "./../../components/global/Button/Button";
+import Input from "./../../components/global/Input/Input";
+import Main from "./../../components/global/Layout/Main";
+import H3 from "./../../components/global/Title/H3";
+import Benefits from "./../../components/global/Topics/Benefits";
 import { Metadata } from "next";
 import Head from "next/head";
 import Link from "next/link";

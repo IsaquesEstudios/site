@@ -2,6 +2,7 @@
 import Nav from "@/components/global/Nav/Nav";
 import "./globals.css";
 import Footer from "@/components/global/Footer/Footer";
+import Nav2 from "@/components/global/Nav-2/Nav";
 
 // import Loading from './loading'
 
@@ -38,7 +39,7 @@ export default function RootLayout({
       <body>
         <noscript>
         </noscript>
-        <Nav />
+        <Nav2/>
         {children}
         <Footer />
       </body>
